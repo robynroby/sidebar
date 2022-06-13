@@ -1,4 +1,11 @@
 .dashboard-main{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dashboard-txt{
     background: #0C407A;
     border-radius: 2.5em;
     width: 550px;
@@ -6,10 +13,7 @@
     align-items: center;
     text-align: center;
     padding: 16px;
-    display: flex;
-    justify-content: space-between;
 }
-
 
 .p{
     font-weight: 700;
@@ -32,7 +36,8 @@
 }
 
 .profile img{
-    width: 70px;
-    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
 }
 
