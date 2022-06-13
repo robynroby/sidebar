@@ -1,0 +1,38 @@
+.dashboard-main{
+    background: #0C407A;
+    border-radius: 2.5em;
+    width: 550px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFF;
+}
+.loc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
+}
+.title{
+    height: 60px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 70px;
+    border-radius: 100%;
+}
+
