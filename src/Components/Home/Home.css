@@ -1,3 +1,7 @@
+body{
+    background-color: #D2E0FB;
+}
+
 .home-container{
 display: flex;
 }
