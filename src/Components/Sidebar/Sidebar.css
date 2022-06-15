@@ -25,6 +25,10 @@ li img{
     text-align: center;
 }
 
+.sidebar-title h1{
+    padding: 20px;
+}
+
 hr{
     width: 100%;
 }

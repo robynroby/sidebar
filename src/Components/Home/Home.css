@@ -1,7 +1,8 @@
 body{
     background-color: #D2E0FB;
+    height: 100vh;
 }
 
 .home-container{
-display: flex;
+    display: flex;
 }
