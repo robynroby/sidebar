@@ -62,7 +62,7 @@ hr{
 }
 
 .dashboard-container .box{
-    background-color: #b9c7d6;
+    background-color: #B7BED3;
     padding: 20px;
     text-align: center;
     border-radius: 2em;
@@ -77,10 +77,10 @@ hr{
 }
 
 .box:nth-child(2){
-    background-color: aqua;
+    background-color: #F5E4B0;
 }
 .box:nth-child(3){
-    background-color: burlywood;
+    background-color: #EEDCDC;
 }
 
 .search-row{
@@ -111,11 +111,12 @@ hr{
     padding: 10px;
     font-size: 1.1em;
     font-weight: 400;
+    outline: none;
 }
 
 .search button{
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 45px;
     border: none;
     color: #fff;
     font-size: 18px;
