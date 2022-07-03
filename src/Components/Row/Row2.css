@@ -1,0 +1,36 @@
+.row-container{
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    height: 15%;
+    background: #B7BED3;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 3fr 4fr 1fr 1fr;
+    grid-gap: 30px;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+.container{
+    display: flex;
+}
+.btn{
+    padding: 10px;
+}
+
+.btn button{
+    padding: 5px;
+    height: 30px;
+    color: #fff;
+    background-color: #C50000;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+    transition: .5s ease;
+    margin-top: 8px;
+    font-size: .8em;
+}

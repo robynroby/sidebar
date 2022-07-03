@@ -7,13 +7,17 @@ import Tenants from './Components/Tenants/Tenants';
 
 function App() {
   return (
+    <Router>
         <div className="App">
           <Sidebar />
           <div className="content">
-            <Home />
-            <Tenants />
+            <Routes>
+            <Route exact path='/' element={< Home />}></Route>
+            <Route exact path='/tenants' element={ <Tenants /> }></Route>
+            </Routes>
           </div>
         </div>
+      </Router>
   );
 }
 

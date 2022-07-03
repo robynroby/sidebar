@@ -1,0 +1,13 @@
+.title-main{
+    background-color: #fff;
+}
+
+.title-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-down h2{
+    color: #0C407A;
+    margin-left: -220px;
+}

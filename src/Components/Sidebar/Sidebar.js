@@ -5,6 +5,7 @@ import Dashboard from '../../assets/Dashboard.png'
 import Account from '../../assets/Account.png'
 import People from '../../assets/People.png'
 import Logout from '../../assets/Logout.png'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -18,10 +19,10 @@ function Sidebar() {
 
             <div className="sidebar-nav">
                 <ul>
-                    <li><a href="#"> <img className='nav-icon' src={Dashboard} alt="" /> DASHBOARD</a></li>
-                    <li><a href="#"> <img className='nav-icon' src={People} alt="" />TENANTS</a></li>
-                    <li><a href="#"> <img className='nav-icon' src={Account} alt="" />PROFILE</a></li>
-                    <li><a href="#"> <img className='nav-icon' src={Logout} alt="" />SIGN OUT</a></li>
+                    <li><Link to="/"> <img className='nav-icon' src={Dashboard} alt="" /> DASHBOARD</Link></li>
+                    <li><Link to="/tenants"> <img className='nav-icon' src={People} alt="" />TENANTS</Link></li>
+                    <li><Link to="/account"> <img className='nav-icon' src={Account} alt="" />PROFILE</Link></li>
+                    <li><Link to="#"> <img className='nav-icon' src={Logout} alt="" />SIGN OUT</Link></li>
                 </ul>
             </div>
 
