@@ -1,3 +1,7 @@
+.title-container{
+    height: 100vh;
+}
+
 .title-main{
     /* width: 100%; */
     /* display: flex;
@@ -96,8 +100,8 @@ hr{
 
 .row{
     width: 100%;
-    margin: 15px auto;
-    height: 250px;
+    margin: 5px auto;
+    height: 275px;
     overflow-x: hidden;
 }
 

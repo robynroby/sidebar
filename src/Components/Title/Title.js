@@ -5,7 +5,7 @@ import Row from '../Row/Row'
 
 function Title() {
   return (
-    <div>
+    <div className='title-container'>
     <div class="title-main">
         <div class="title-txt">
             <div class="title">

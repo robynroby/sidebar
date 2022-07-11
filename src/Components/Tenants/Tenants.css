@@ -9,5 +9,19 @@
 
 .title-down h2{
     color: #0C407A;
-    margin-left: -220px;
+    margin:0px 0 -10px -220px;
+}
+
+.title-down button{
+    width: fit-content;
+    padding: 10px 7px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    background: #0C407A;
+    border-radius: .8em;
+    font-weight: bold;
+    margin: 0px -260px -10px 0;
+    cursor: pointer;
+    transition: .5s ease;
 }
