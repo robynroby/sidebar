@@ -62,7 +62,7 @@ hr{
 
 .dashboard-container{
     display: flex;
-    padding: 50px;
+    padding:  50px 50px 0 50px;
     width: 100%;
     justify-content: space-between;
 }
@@ -92,7 +92,7 @@ hr{
 .search-row{
     padding: 10px;
     width: 90%;
-    margin: 0px auto;
+    margin: 50px auto;
     border: 4px solid #fff;
     border-radius: 24px;
     overflow-x: hidden;
